@@ -1,7 +1,9 @@
 import requests
 from pprint import pprint
+from endpoints import sheety_prices_endpoint
 
-SHEETY_PRICES_ENDPOINT = 'https://api.sheety.co/06df0a8e46bb6002a1809f757e041e5b/flightDeals/data'
+# The endpoints have been imported from another file
+SHEETY_PRICES_ENDPOINT = sheety_prices_endpoint 
 
 
 class DataManager:
